@@ -4,7 +4,7 @@ from telebot import types
 from telebot.types import Message
 
 # API Token From BotFather
-bot = telebot.TeleBot('6297070230:AAG0Hqnc5Bj1Sn7062uAXsZBDwuxPyH8LOM')
+bot = telebot.TeleBot('')
 
 # /start command
 @bot.message_handler(commands=['start'])
